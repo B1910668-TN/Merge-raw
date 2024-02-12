@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khổ qua nhồi thịt Comics Tool</title>
+    <link rel="stylesheet" href="../css/raw.css">
+</head>
+<body>
+    <div class="ghepanh">
+        <input type="file" id="imageInput" multiple accept="image/*">
+        <button class="btn_ghep" onclick="mergeImages()">Ghép Ảnh</button>
+        <button class="btn_ghep" onclick="saveImage()">Lưu Ảnh</button>
+    </div>
+
+    <div id="output"></div>
+    <h1 id="mess"></h1>
+    <div id="loading" class="running-cat">
+        <img class="load_img" src="../img/logo.png" alt="Running Cat Pixel Art">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

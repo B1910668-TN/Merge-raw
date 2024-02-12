@@ -1,0 +1,74 @@
+#output {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#output img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#mess{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ghepanh{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn_ghep{
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+#imageInput{
+    border-radius: 2px;
+}
+
+#loading {
+    width: 95%;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@keyframes runAnimation {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(0); }
+}
+
+.running-cat {
+    animation: runAnimation 1s infinite linear;
+}
+
+.load_img{
+    width: 200px;
+    height: auto;
+}
+
+.star {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background-color: #ffcc00; /* Màu của ngôi sao */
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform-origin: 50% 50%;
+    animation: twinkle 7s infinite alternate;
+}
+
+@keyframes twinkle {
+    from {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    to {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
