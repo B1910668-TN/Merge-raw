@@ -35,6 +35,8 @@
     display: block;
     margin-top: 10px;
     text-align: center;
+    z-index: 1;
+    position: absolute;
 }
 
 @keyframes runAnimation {
@@ -71,4 +73,20 @@
         transform: scale(1.2);
         opacity: 1;
     }
+}
+
+.donate{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    z-index: 2;
+}
+
+.hi{
+    margin-left: 32px;
+    z-index: 2;
+}
+
+.donate_div{
+    position: absolute;
 }

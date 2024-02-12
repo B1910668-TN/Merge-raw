@@ -61,7 +61,6 @@ function mergeImagesInternal(images) {
 }
 
 function mergeImages() {
-    showLoading();
     var input = document.getElementById('imageInput');
     var outputDiv = document.getElementById('output');
     document.getElementById("mess").innerHTML = "Đang tiến hành ghép, cậu chờ tớ chút nha~";
